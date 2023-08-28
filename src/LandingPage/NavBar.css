@@ -1,0 +1,261 @@
+.navbar, .lftside, .rgtside{
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar{
+    height: 8%;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 4%;
+    padding: 0 8%;
+
+}
+
+.rgtside{
+    width: 26%;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.lftside{
+    width: 11%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    width: 45%;
+}
+
+.brand{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+ul li{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.fsign{
+    width: 100%;
+    height: 70%;
+    border-radius: 5px;
+    font-size: .9rem;
+    background-color: #E2B887;
+    color: #00302E;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup{
+    width: 40%;
+}
+
+.home{
+    color: #FBDDBB;
+}
+
+.ham{
+    display: none;
+}
+
+.close{
+    display: none;
+}
+
+@media only screen and (max-width: 1197px){
+    .rgtside{
+        width: 30%;
+    }
+    .fsign{
+        height: 80%;
+    }
+    .lftside{
+        width: 13%;
+    }
+}
+@media only screen and (max-width: 1073px){
+    .lftside{
+        width: 14%;
+    }
+    .rgtside{
+        width: 35%;
+    }
+}
+@media only screen and (max-width: 943px){
+    .lftside{
+        width: 15%;
+    }
+}
+@media only screen and (max-width: 843px){
+    .lftside{
+        width: 16%;
+    }
+    .rgtside{
+        width: 37%;
+    }
+}
+@media only screen and (max-width: 768px){
+    .lftside{
+        width: 16%;
+    }
+    .rgtside{
+        width: 38%;
+    }
+    ul li a{
+        font-size: .9em;
+    }
+    .logo{
+        width: 38%;
+    }
+    .brand{
+        font-size: 1.4rem;
+    }
+    .signup{
+        width: 45%;
+        height: 8vh;
+    }
+    .fsign{
+        font-size: .8rem;
+    }
+    .navbar{
+        height: 9%;
+    }
+
+}
+@media only screen and (max-width: 668px){
+    .lftside{
+        width: 18%;
+    }
+    .rgtside{
+        width: 40%;
+    }
+    .fsign{
+        height: 100%;
+    }
+}
+
+@media only screen and (max-width: 568px){
+    .lftside{
+        width: 30%;
+    }
+    .rgtside{
+        width: 40%;
+    }
+    ul li a{
+        font-size: .85em;
+    }
+    .brand{
+        font-size: 1.1rem;
+    }
+    .fsign{
+        font-size: .8rem;
+    }
+}
+
+@media only screen and (max-width: 468px){
+    .lftside{
+        width: 30%;
+    }
+    .rgtside{
+        width: 55%;
+    }
+    .fsign{
+        height: 5vh;
+    }
+    .signup{
+        width: 35%;
+        height: 6vh;
+    }
+    .brand{
+        font-size: 1.05rem;
+    }
+    .logo{
+        width: 55%;
+        padding-right: 10%;
+    }
+}
+
+@media only screen and (max-width: 376px){
+    .navbar{
+        height: 5%;
+        padding: 0 8%;
+        margin-top: 5%;
+    }
+    .ham{
+        display: block;
+        width: 5.5%;
+    }
+    .rgtside{
+        height: 100%;
+        z-index: 1;
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        box-sizing: border-box;
+        justify-content: right;
+        padding-left: 6%;
+        padding-right: 0;
+        padding-top: 10%;
+        top: 0;
+        right: -278px;
+        align-items: flex-start;
+        justify-content: flex-start;
+        transition: right .3s;
+        background-color: #0b0d17df;
+        overflow-y: hidden;
+        gap: 1%;
+    }
+    .rgtside li{
+        height: 10%;
+    }
+    .lftside{
+        width: 30%;
+    }
+    .logo{
+        width: 65%;
+        padding-right: 10%;
+    }
+    .close{
+        display: block;
+        height: 2%;
+        padding-left: 80%;
+    }
+    .signup{
+        width: 70%;
+    }
+    .fsign{
+        height: 70%;
+        border-radius: 0;
+    }
+}
+    
+@media only screen and (max-width: 276px){
+    .brand{
+        font-size: .8rem;
+    }
+    .ham{
+        width: 5%;
+    }
+}

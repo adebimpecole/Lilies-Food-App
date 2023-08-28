@@ -1,0 +1,56 @@
+[
+  {
+    "key": 0,
+    "title": "Blueberry Toasts and Smoothie",
+    "price": 1500.00,
+    "time": "20-50",
+    "quantity": 10,
+    "desc": "Just have a single bite of this Black Forest pastry and it will all make a proper sense tto you. The kkick of cherry and rich chocolate of this super light, airy pastry will definately make you feel 'wow'. The perfect combination of cherry cream and rich chocolate can provide the utimate fufillment to your dessert craving.",
+    "shortdesc": "The in-house toast and smoothie by Chef Kim"
+  },
+  {
+    "key": 1,
+    "title": "Crockpot Honey Garlic Meatballs",
+    "price": 2000.00,
+    "time": "10-20",
+    "quantity": 9,
+    "desc": "Frozen beef meatballs slung into the crockpot and cooked with a delicious honey garlic sauce! So simple and so addictive! These beautiful bites are made for the holidays, game day, movie night or any time you want a big batch of scrumptious appetizers!",
+    "shortdesc": "The meatballs dipped in garlic sauce by Chef Moose"
+  },
+  {
+    "key": 2,
+    "title": "Burger and Fries",
+    "price": 1500.00,
+    "time": "10-15",
+    "quantity": 20,
+    "desc": "The burger is cooked medium with a nice and juicy pink centre that tastes great. I is then filled with some hot and crunchy jalapeños, a crispy bacon and some thin slices of red onion",
+    "shortdesc": "The in-house burger and fries by Chef Moose"
+  },
+  {
+    "key": 3,
+    "title": "Lemon Butter Garlic Pasta",
+    "price": 2500.00,
+    "time": "20-30",
+    "quantity": 10,
+    "desc": "This a classic Italian pasta dish. It’s said to originate in Sicily, but it’s popular in several regions where lemons are grown in abundance. This simple dish combines pasta noodles (usually spaghetti) with fresh lemon, butter, olive oil, salt and pepper, and optionally cream and parmesan.",
+    "shortdesc": "The in-house garlic pasta by Chef Kim"  
+  },
+  {
+    "key": 4,
+    "title": "Stir Fry Pasta",
+    "price": 1000.00,
+    "time": "10-15",
+    "quantity": 15,
+    "desc": "This delicious meal prepared by parboiling and frying pasta with stir-fried vegetables and pepper. It is a good source of carbohydrate and vitamins as it contains pasta and veggies. The carrot, garlic and ginger are not just good for flavour but also good for nutrients",
+    "shortdesc": "The in-house pasta and chicken by Chef Moose"
+  },
+  {
+    "key": 5,
+    "title": "Cabbage Soup",
+    "price": 2000.00,
+    "time": "25-30",
+    "quantity": 10,
+    "desc": "It is a comforting and healthy low calorie meal! It consists of sliced cabbage with mirepoix vegetables, diced tomatoes, vegetable broth, and herbs for an easy and delicious, low calorie meal.",
+    "shortdesc": "The in-house soup by Chef Kim"
+  }
+]

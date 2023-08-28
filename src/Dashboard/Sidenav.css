@@ -1,0 +1,166 @@
+.sidenav{
+    width: 20%;
+    height: 100%;
+    background-color: #FBFBFB;
+    padding: 4% 2% 3% 2%;
+    box-sizing: content-box;
+    position: fixed;
+}
+
+.brndname, .opt span{
+    color: black;
+}
+
+.brndname{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.subnav{
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.brand{
+    height: 15%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+}
+
+.nav{
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.opt{
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4%;
+    justify-content: flex-start;
+    padding: 0 5%;
+    border-radius: 10px;
+    color: #707070;
+    width: 100%;
+    transition: width .1s;
+    cursor: pointer;
+}
+
+.opts{
+    justify-content: space-between;
+    font-weight: normal;
+}
+
+.opt span{
+    font-size: .9rem;
+    color: inherit;
+}
+
+.active{
+    background-color: #EFEFEF;
+    color: black;
+}
+
+.go{
+    height: 80%;
+}
+
+.ord, .rord{
+    font-weight: bold;
+    color: black;
+    padding: 0 3%;
+    border-radius: 25%;
+}
+
+.rord{
+    background-color: #06E775;
+}
+
+.ord{
+    background-color: #F3C294;
+}
+
+.spc{
+    display: flex;
+    flex-direction: row;
+    gap: 8%;
+    width: fit-content;
+    align-items: center;
+    width: 60%;
+}
+
+.opt:hover{
+    background-color: #EFEFEF;
+    color: black;
+    width: 91%;
+}
+
+@media only screen and (max-width: 943px){
+    .brndname{
+        font-size: 1.7rem;
+        font-weight: bold;
+    }
+    
+    .brand{
+        height: 10%;
+    } 
+}
+
+@media only screen and (max-width: 843px){
+    .sidenav{
+        width: 22%;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .sidenav{
+        width: 10%;
+        padding: 5% 0 0 0;
+    }
+    .ntxt, .brndname{
+        display: none;
+    }
+    .opt, .opts, .spc{
+        font-size: 1.3rem;
+        justify-content: center;
+        border-radius: 0;
+    }
+    .spc{
+        font-size: 2rem;
+    }
+    .opt:hover, .active:hover{
+        font-size: 1.8rem;
+    }
+    .brand{
+        height: 15%;
+    } 
+    .rord, .ord{
+        display: none;
+    }
+}
+@media only screen and (max-width: 568px){
+    .brand{
+        height: 13%;
+    } 
+}
+@media only screen and (max-width: 568px){
+    .brand{
+        height: 10%;
+    } 
+}
+
+@media only screen and (max-width: 768px){
+    .sidenav{
+        width: 15%;
+        padding: 6% 0 0 0;
+    }
+}

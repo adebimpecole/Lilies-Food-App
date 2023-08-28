@@ -1,0 +1,150 @@
+.fsection{
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5% 8%;
+}
+
+h1{
+    font-size: 3.5rem;
+    color: white;
+    font-weight: normal;
+    margin: 0;
+}
+
+h1 span{
+    color: #FBDDBB;
+}
+
+.lfttxt{
+    font-size: .9rem;
+    color: white;
+    padding: 5% 0;
+}
+
+.lftsec{
+    width: 50%;
+    text-align: left;
+}
+
+.rgtsec{
+    width: 35%;
+}
+
+.food1{
+    width: 100%;
+}
+
+.image{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 55%;
+}
+
+.image img{
+    width: 45%;
+}
+
+.store{
+    border: .5px solid #ffffff46;;
+    border-radius: 5px;
+}
+
+@media only screen and (max-width: 1073px){
+    .fsection{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 843px){
+    .fschd{
+        font-size: 2rem;
+    }
+}
+@media only screen and (max-width: 768px){
+    .lfttxt{
+        font-size: .8rem;
+    }
+    .fschd{
+        font-size: 1.8rem;
+    }
+    .image{
+        width: 65%;
+    }
+    .rgtsec{
+        width: 33%;
+    }
+}
+@media only screen and (max-width: 668px){
+    .lfttxt{
+        font-size: .7rem;
+    }
+    .lftsec{
+        width: 60%;
+    }
+    .fschd{
+        font-size: 1.75rem;
+    }
+    .image{
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 568px){
+    .fschd{
+        font-size: 1.4rem;
+    }
+    .image{
+        width: 75%;
+    }
+}
+
+@media only screen and (max-width: 468px){
+    .fschd{
+        font-size: 1.2rem;
+    }
+    .image{
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 376px){
+    .fsection{
+        padding: 5% 8%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .lftsec{
+        width: 100%;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .lfttxt{
+        text-align: center;
+    }
+    .image{
+        width: 70%;
+    }
+    .fschd{
+        font-size: 1.2rem;
+    }
+    .rgtsec{
+        padding-top: 5%;
+        width: 55%;
+    }
+}
+    
+@media only screen and (max-width: 276px){
+    .fschd{
+        font-size: .9rem;
+    }
+    .lfttxt{
+        font-size: .6rem;
+    }
+}

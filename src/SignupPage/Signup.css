@@ -1,0 +1,39 @@
+.Signup{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    background-color: white;
+}
+.imgdiv2{
+    height: 100%;
+    width: 100%;
+    background-color: #e2b78771;
+}
+.img2{
+    height: 100%;
+    width: 50%;
+    background-image: url(../images/signuppic.png);
+}
+.log{
+    height: 100%;
+    width: 100%;
+}
+
+@media only screen and (max-width: 768px){
+    .imgdiv2{
+        display: none;
+    }
+    .img2{
+        display: none;
+    }
+    .Signup{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        background-image: url(../images/signuppic.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}

@@ -1,0 +1,208 @@
+.foot1{
+    display: flex;
+    flex-direction: row;
+    padding: 3% 8% 3% 8%;
+    justify-content: space-between;
+    height: 70%;
+}
+.sect{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+.sectbdy{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 20%;
+    line-height: 30px;
+}
+span{
+    color: white;
+}
+.secthd{
+    font-size: 1rem;
+}
+.sectbdy span{
+    font-size: .8rem;
+}
+.play{
+    border-radius: 5px;
+    height: 30%;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+}
+.play img{
+    border: .5px solid #ffffff46;;
+    border-radius: 5px;
+}
+.foot2{
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    padding: 1% 8%;
+    justify-content: space-between;
+}
+hr{
+    background-color: #ffffff2a;
+    border: none;
+    height: 1px;
+}
+.socials{
+    width: 13%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 18%;
+}
+
+.socials span{
+    background-color: #ffffff2a;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    border-radius: 30px;
+}
+.socials span img{
+    width: 60%;
+}
+.footer{
+    height: fit-content;
+}
+.fttxt{
+    color: white;
+    font-size: .8rem;
+}
+.google{
+    justify-content: space-between;
+    height: 60%;
+}
+
+@media only screen and (max-width: 1197px){
+    .socials{
+        width: 18%;
+    }
+}
+@media only screen and (max-width: 1073px){
+    .socials{
+        gap: 15%;
+    }
+}
+@media only screen and (max-width: 943px){
+
+    .socials span img{
+        width: 50%;
+    }
+    .social{
+        height: 80%;
+    }
+    .play img{
+        width: 75%;
+    }
+}
+@media only screen and (max-width: 843px){
+    .socials{
+        gap: 10%;
+    }
+}
+@media only screen and (max-width: 768px){
+    .socials{
+        width: 22%;
+        height: 100%;
+        align-items: center;
+    }
+    .sectbdy span{
+        font-size: .7rem;
+    }
+    .secthd{
+        font-size: .9rem;
+    }
+    .fttxt{
+        color: white;
+        font-size: .7rem;
+    }
+    .app{
+        display: none;
+    }
+    .foot2{
+        align-items: center;
+    }
+}
+@media only screen and (max-width: 668px){
+    .social{
+        height: 85%;
+    }
+    .foot2{
+        height: 50px;
+    }
+}
+
+@media only screen and (max-width: 568px){
+    .socials{
+        width: 25%;
+    }
+    .social{
+        height: 80%;
+    }
+    .sectbdy{
+        line-height: 25px;
+        padding-top: 15%;
+    }
+}
+
+@media only screen and (max-width: 468px){
+    .socials{
+        width: 28%;
+    }
+    .social{
+        height: 75%;
+    }
+}
+
+@media only screen and (max-width: 376px){
+    .foot1{
+        flex-direction: column;
+    }
+    .sect{
+        padding-top: 5%;
+    }
+    .sectbdy{
+        padding-top: 3%;
+        line-height: 20px;
+    }
+    .socials{
+        width:30%;
+    }
+    .social{
+        height: 65%;
+    }
+    .fttxt{
+        font-size: .6rem;
+    }
+    .sectbdy span{
+        font-size: .6rem;
+    }
+    .secthd{
+        font-size: .75rem;
+    }
+    .foot2{
+        height: 40px;
+    }
+}
+    
+@media only screen and (max-width: 276px){
+    .sectbdy span{
+        font-size: .55rem;
+    }
+    .fttxt{
+        font-size: .55rem;
+    }
+    .secthd{
+        font-size: .7rem;
+    }
+    .social{
+        height: 55%;
+    }
+}

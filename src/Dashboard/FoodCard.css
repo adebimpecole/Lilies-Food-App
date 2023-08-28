@@ -1,0 +1,134 @@
+
+.cpic{
+    padding: 15% 15% 5% 15%;
+    box-sizing: border-box;
+    width: 70%;
+}
+
+.fcname{
+    font-size: 1;
+    font-weight: bold;
+    height: fit-content;
+}
+.time, .qnty{
+    color: black;
+}
+
+.price, .time, .qnty{
+    font-size: .9rem;
+    font-weight: bold;
+}
+
+.odets{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 8% 0;
+}
+
+.desc{
+    width: 80%;
+    font-size: .8rem;
+}
+
+.gotocart{
+    height: inherit;
+    width: 30%;
+    color: white;
+    background-color: #00302E;
+    border: none;
+    font-size: .85rem;
+    letter-spacing: 1px;
+}
+
+.gotocart:hover{
+    background-color: #07413f;
+}
+
+.btm_fdr{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.increase, .decrease{
+    border: none;
+    font-size: 2.5rem;
+    background-color: #F3C294;
+    color: #00302E;
+    width: 35%;
+    padding: 0;
+    height: inherit;
+}
+.counter{
+    color: black;
+    width: 25%;
+    font-size: 1.5rem;
+    font-weight: bold;
+    height: inherit;
+    vertical-align: baseline;
+    padding-top: 5%;
+}
+
+.count{
+    width: 35%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button{
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 768px){
+    .increase, .decrease{
+        font-size: 1.8rem;
+        width: 30%;
+    }
+    .gotocart{
+        width: 40%;
+        font-size: .8rem;
+    }
+    .counter{
+        width: 25%;
+        font-size: 1.4rem;
+    }
+    .desc{
+        font-size: .7rem;
+        padding-top: 2%;
+    }
+}
+@media only screen and (max-width: 768px){
+    .price, .time, .qnty{
+        font-size: .8rem;
+        font-weight: bold;
+    }
+    .desc{
+        font-size: .6rem;
+    }
+    .btm_fdr{
+        width: 80%;
+        height: 25%;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .increase, .decrease, .counter{
+        height: 40%;
+        width: 20%;
+    }
+    .count{
+        width: 100%;
+        justify-content: space-around;
+    }
+    .gotocart{
+        width: 86%;
+        font-size: .8rem;
+        height: 40%;
+    }
+}

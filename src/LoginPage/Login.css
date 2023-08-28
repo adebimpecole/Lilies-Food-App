@@ -1,0 +1,39 @@
+.Login{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    background-color: white;
+}
+.imgdiv{
+    height: 100%;
+    width: 100%;
+    background-color: #e2b78771;
+}
+.img{
+    height: 100%;
+    width: 50%;
+    background-image: url(../images/loginpic.png);
+}
+.log{
+    height: 100%;
+    width: 100%;
+}
+
+@media only screen and (max-width: 768px){
+    .imgdiv{
+        display: none;
+    }
+    .img{
+        display: none;
+    }
+    .Login{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        background-image: url(../images/loginpic.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}

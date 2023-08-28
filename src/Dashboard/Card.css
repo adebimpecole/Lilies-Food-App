@@ -1,0 +1,98 @@
+.card{
+    border: 1px solid #00302E24;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5%;
+    gap: 2%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.card:hover{
+    border: 1px solid #00302ea8;
+}
+
+.name{
+    font-size: 1rem;
+    height: 30%;
+    width: 90%;
+}
+
+.fdesc{
+    font-size: .8rem;
+    width: 90%;
+    padding-top: 5%;
+}
+
+.txt{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.food{
+    width: 42%; 
+    height: 35%;
+}
+
+.dets{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 5%;
+}
+
+.cart{
+    color: #06E775;
+    font-weight: bold;
+    font-size: .9rem;
+
+}
+
+.cart:hover{
+    text-decoration: underline;
+}
+
+.fprice{
+    font-weight: bolder;
+    color: black;
+    font-size: .9rem;
+}
+
+@media only screen and (max-width: 1143px){
+    .name{
+        font-size: .9rem;
+    }
+    
+    .fdesc{
+        font-size: .6rem;
+    }
+
+    .cart, .fprice{
+        font-size: .8rem;
+    }
+
+    .food{
+        width: 42%; 
+        height: 32%;
+    }
+}
+
+@media only screen and (max-width: 568px){
+    .name{
+        font-size: .8rem;
+    }
+
+    .cart, .fprice{
+        font-size: .7rem;
+    }
+}

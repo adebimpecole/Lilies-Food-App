@@ -1,0 +1,168 @@
+
+.body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 5%;
+}
+.cardsdiv{
+    display: grid;
+    grid-template-columns: 26% 26% 26%;
+    grid-template-rows: 45% 45%;
+    height: 100%;
+    width: 73%;
+    gap: 10%;
+    padding: 4% 0;
+    box-sizing: border-box;
+}
+
+.cards{
+    display: flex;
+    justify-content: flex-end;
+    gap: 8%;
+    height: 92%;
+    width: 100%;
+}
+
+.wtxt{
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.react-typewriter-text{
+    font-size: 1.4rem;
+    text-align: left;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.grttxt{
+    font-size: .9rem;
+}
+
+.welcome{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 8%;
+    width: 73%;
+    align-items: center;
+}
+
+.prof{
+    width: 6%;
+    height: 84%;
+}
+
+.Typewriter{
+    color: red;
+}
+
+@media only screen and (max-width: 1143px){
+    .react-typewriter-text{
+        font-size: 1.3rem;
+    }
+    
+    .grttxt{
+        font-size: .8rem;
+    }
+
+    .cardsdiv{
+        grid-template-columns: 27% 27% 27%;
+        grid-template-rows: 46% 46%;
+        gap: 9%;
+    }
+}
+@media only screen and (max-width: 1043px){
+    .prof{
+        width: 6%;
+        height: 84%;
+    }   
+}
+@media only screen and (max-width: 943px){
+    .cardsdiv{
+        grid-template-columns: 40% 40%;
+        grid-template-rows: 39% 39% 39%;
+        gap: 5% 12%;
+        padding: 2% 0;
+        justify-content: space-evenly;
+    }
+    .prof{
+        width: 8%;
+        height: 73%;
+    }   
+}
+@media only screen and (max-width: 843px){
+    .prof{
+        width: 8%;
+        height: 73%;
+    }   
+}
+
+@media only screen and (max-width: 768px){
+    .cardsdiv{
+        grid-template-rows: 40% 40% 40%;
+        grid-template-columns: 40% 40%;
+        width: 85%;
+    }
+    
+    .welcome{
+        width: 83%;
+    }
+}
+
+@media only screen and (max-width: 668px){
+    .cardsdiv{
+        grid-template-rows: 35% 35% 35%;
+    }
+}
+
+@media only screen and (max-width: 568px){
+    .cardsdiv{
+        padding: 4% 0;
+    }
+    .react-typewriter-text{
+        font-size: 1.1rem;
+    }
+    .grttxt{
+        font-size: .7rem;
+    }
+    .prof{
+        height: 60%;
+    }   
+}
+@media only screen and (max-width: 468px){
+    .cardsdiv{
+        grid-template-rows: 25% 25% 25% 25% 25% 25%;
+        grid-template-columns: 70%;
+        width: 85%;
+    }
+    .welcome{
+        height: 5%;
+    }
+}
+@media only screen and (max-width: 376px){
+    .cardsdiv{
+        width: 90%;
+        grid-template-rows: 23% 23% 23% 23% 23% 23%;
+        padding: 8% 0;
+        gap: 2%;
+    }
+    .react-typewriter-text{
+        font-size: 1rem;
+    }
+    .grttxt{
+        font-size: .6rem;
+        width: 100%;
+        text-overflow: clip;
+        text-align: left;
+    }
+    .prof{
+        display: none;
+    }
+}

@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c595c7dd.css",
+    "main.js": "/static/js/main.f8c7d629.js",
+    "static/js/787.8741f9c1.chunk.js": "/static/js/787.8741f9c1.chunk.js",
+    "static/media/food1.svg": "/static/media/food1.236f065a4387eaeee1a594dc039ddcbd.svg",
+    "static/media/food2.png": "/static/media/food2.71cac6848d94c02ae234.png",
+    "static/media/food3.png": "/static/media/food3.a5e317e0ce363e3577f5.png",
+    "static/media/food4.png": "/static/media/food4.395c077b18bc367c3f50.png",
+    "static/media/loginpic.png": "/static/media/loginpic.4930a11faf483c771fb9.png",
+    "static/media/signuppic.png": "/static/media/signuppic.ba06683f18afabaf1144.png",
+    "static/media/fd4.png": "/static/media/fd4.bb06d83cfde0c5761bf3.png",
+    "static/media/fd1.png": "/static/media/fd1.491c896c3406f473e282.png",
+    "static/media/fd0.png": "/static/media/fd0.912829c8d270f3f5895a.png",
+    "static/media/fd5.png": "/static/media/fd5.dbf1ed1d099f2824ef12.png",
+    "static/media/fd2.png": "/static/media/fd2.47dd7f6a71681b9f8598.png",
+    "static/media/applestore.svg": "/static/media/applestore.1a74160df1baf3c973ad7a9111532f04.svg",
+    "static/media/googleplay.svg": "/static/media/googleplay.b9aa5b34ab27692d4257191c5b895a14.svg",
+    "static/media/fd3.png": "/static/media/fd3.52247eeeecc4d62184ee.png",
+    "static/media/tweet.svg": "/static/media/tweet.ec2e0338cb7c9b3b4db318ce972690a7.svg",
+    "static/media/logo.svg": "/static/media/logo.6e96f13443298336b7581f5e2326caaf.svg",
+    "static/media/instagram.svg": "/static/media/instagram.43f66760a7509fb3966e682ef0eab2de.svg",
+    "static/media/youtube.svg": "/static/media/youtube.60f6d2a6acc3e8750a387895ead0f65d.svg",
+    "index.html": "/index.html",
+    "static/media/icon-close.svg": "/static/media/icon-close.d47fda63cbd8b3fedbbc1b2a53f64470.svg",
+    "static/media/icon-hamburger.svg": "/static/media/icon-hamburger.5273efa7c50e96ef3e51e7a2b54048ce.svg",
+    "main.c595c7dd.css.map": "/static/css/main.c595c7dd.css.map",
+    "main.f8c7d629.js.map": "/static/js/main.f8c7d629.js.map",
+    "787.8741f9c1.chunk.js.map": "/static/js/787.8741f9c1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c595c7dd.css",
+    "static/js/main.f8c7d629.js"
+  ]
+}

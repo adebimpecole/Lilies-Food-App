@@ -1,0 +1,87 @@
+.fldiv{
+    position: fixed;
+    display: none;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+}
+.off{
+    height: 100%;
+    width: 65%;
+}
+.flcrd, .ctcrd{
+    background-color: white;
+    height: inherit;
+    float: right;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.flcrd{
+    width: 35%;
+    height: 100%;
+}
+
+/* cart */
+.ctoff{
+    height: 100%;
+    width: 45%;
+}
+.ctcrd{
+    width: 55%;
+    height: 100%;
+}
+
+@media only screen and (max-width: 1143px){
+    .off{
+        width: 55%;
+    }
+    .flcrd{
+        width: 45%;
+    }
+    /* cart */
+    .ctoff{
+        width: 35%;
+    }
+    .ctcrd{
+        width: 65%;
+    }
+}
+@media only screen and (max-width: 768px){
+    .off{
+        width: 45%;
+    }
+    .flcrd{
+        width: 55%;
+    }
+    /* cart */
+    .ctoff{
+        width: 15%;
+    }
+    .ctcrd{
+        width: 85%;
+    }
+}
+@media only screen and (max-width: 568px){
+    .off{
+        width: 35%;
+    }
+    .flcrd{
+        width: 70%;
+    }
+}
+@media only screen and (max-width: 468px){
+    .off{
+        width: 20%;
+    }
+    .flcrd{
+        width: 80%;
+    }
+}

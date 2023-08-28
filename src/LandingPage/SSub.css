@@ -1,0 +1,68 @@
+.ssub{
+    width: 20%;
+}
+.secs{
+    width: 100%;
+}
+h3{
+    font-size: 1.2rem;
+    color: #FBDDBB;
+}
+
+.ssub div{
+    font-size: .9rem;
+    color: white;
+}
+
+@media only screen and (max-width: 943px){
+    .ssub{
+        width: 25%;
+    }
+}
+@media only screen and (max-width: 768px){
+    .ssub div{
+        display: none;
+    }
+    .secs{
+        width: 85%;
+    }
+}
+@media only screen and (max-width: 668px){
+    h3{
+        font-size: 1.1rem;
+    }
+    .ssub{
+        width: 28%;
+    }
+    .secs{
+        width: 80%;
+    }
+}
+@media only screen and (max-width: 568px){
+    h3{
+        font-size: 1.05rem;
+    }
+}
+@media only screen and (max-width: 468px){
+    h3{
+        font-size: .9rem;
+    }
+}
+@media only screen and (max-width: 376px){
+    h3{
+        font-size: .9rem;
+        font-weight: normal;
+    }
+    .ssub{
+        width: 50%;
+    }
+}
+@media only screen and (max-width: 276px){
+    h3{
+        font-size: .7rem;
+        font-weight: normal;
+    }
+    .ssub{
+        width: 50%;
+    }
+}
