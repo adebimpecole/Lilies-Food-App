@@ -17,7 +17,7 @@ To get started with the project, follow these steps:
 
 1. **Clone the repository:**
 ```
-git clone https://github.com/your-group/project-name.git
+git clone https://github.com/adebimpecole/Lilies-Food-App.git
 cd project-name
 ```
 
