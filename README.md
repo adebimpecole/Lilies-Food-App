@@ -1,9 +1,9 @@
-# GES400 - Event management system
-This is an food website designed to help enable users select meals of their choice, add it to a cart and purchase it. This websites main goal is to
+# Lilies - Food Website
+This is a food website that allows users to effortlessly select their desired meals, add them to a cart, and complete their purchases. My main goal is to create a user-friendly and visually appealing platform that encourages visitors to browse, order, and make purchases easily.
 
 ## Table of contents
 
-- [GES400 - Event management system](#ges400---event-management-system)
+- [Lilies - Food-Website](#lilies---food-website)
   - [Table of contents](#table-of-contents)
   - [Getting Started](#getting-started)
   - [Installation](#installation)
