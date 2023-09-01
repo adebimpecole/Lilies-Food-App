@@ -49,14 +49,17 @@ const Sidenav = (props) => {
              
         <div className='subnav'>
             <div className='brand'>
-                <img src={logo} alt='logo' className='go'/>
-                <h1 className='brndname'>Lilies</h1>
+              <picture className='go'>
+                  <source srcSet={logo} type="image/webp"/>
+                  <img src={logo} alt='logo' />
+              </picture>
+              <h1 className='brndname'>Lilies</h1>
             </div>
             <div className='nav'>
                 <div className='opt active dash' onClick={Active}><AiFillHome/><span className='ntxt'>Dashboard</span></div>
-                <div className='opt' onClick={Active} key="prof"><IoPersonCircleSharp/><span className='ntxt'>Your Profile</span></div>
+                <div className='opt' onClick={Active} key="prof"><IoPersonCircleSharp/><span className='ntxt'>Profile</span></div>
                 <Link path="/cart" className='opt opts odr' onClick={Active} key="order"><span className='spc'><AiFillCalendar/><span className='ntxt'>Orders</span></span><span className='rord'>0</span></Link>
-                <Link path="/cart" className='opt opts ct' onClick={Active} key="cart"><span className='spc'><IoBookmark/><span className='ntxt'>Your Cart</span></span><span className='ord'>{value}</span></Link>
+                <Link path="/cart" className='opt opts ct' onClick={Active} key="cart"><span className='spc'><IoBookmark/><span className='ntxt'>Cart</span></span><span className='ord'>{value}</span></Link>
             </div>
         </div>
     </div>

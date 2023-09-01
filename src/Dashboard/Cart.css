@@ -71,6 +71,10 @@
 .itmpic{
     width: 18%;
 }
+.itmpic img{
+    width: 100%;
+    height: 100%;
+}
 
 .itmqnt, .qnt, .sitmqnt{
     width: 5%;

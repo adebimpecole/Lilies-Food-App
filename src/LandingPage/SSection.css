@@ -10,7 +10,7 @@
     width: 100%;
 }
 
-h1{
+.sschd{
     margin: 0;
     color: white;
     font-weight: bold;
@@ -24,7 +24,7 @@ h1{
 .fsec2 div{
     color: white;
     font-size: .9rem;
-    padding: 4%;
+    padding: .5rem 0;
 }
 
 @media only screen and (max-width: 1197px){
@@ -33,6 +33,9 @@ h1{
     }
     .lftside{
         width: 13%;
+    }
+    .ssec2{
+        padding: 3% 5% 0 5% ;
     }
 }
 @media only screen and (max-width: 1073px){
@@ -63,33 +66,26 @@ h1{
     }
 }
 @media only screen and (max-width: 668px){
-    .sschd{
-        font-size: 1.65rem;
-    }
     .fsec2{
         padding: 1% 13%;
     }
     .sscdiv{
         padding: 4% 0;
     }
-    .fsec2 div{
-        font-size: .7rem;
-    }
 }
 
 @media only screen and (max-width: 568px){
     .sschd{
-        font-size: 1.3rem;
+        font-size: 1.4rem;
+    }
+    .fsec2 div{
+        font-size: .7rem;
+        padding: .5rem 0;
     }
 }
 
 @media only screen and (max-width: 468px){
-    .sschd{
-        font-size: 1.1rem;
-    }
-    .fsec2 div{
-        font-size: .7rem;
-    }
+    /*  */
 }
 
 @media only screen and (max-width: 376px){
@@ -100,6 +96,12 @@ h1{
         justify-content: space-between;
         padding: 3% 8% 0 8% ;
         align-items: center;
+    }
+    .sschd{
+        font-size: 1.2rem;
+    }
+    .fsec2 div{
+        font-size: .6rem;
     }
 }
     

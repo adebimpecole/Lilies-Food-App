@@ -42,6 +42,11 @@
     height: 35%;
 }
 
+.food img{
+    width: auto;
+    height: 100%;
+}
+
 .dets{
     width: 100%;
     height: 15%;
@@ -49,6 +54,7 @@
     flex-direction: row;
     justify-content: space-between;
     padding-top: 5%;
+    align-items: center;
 }
 
 .cart{
@@ -69,21 +75,25 @@
 }
 
 @media only screen and (max-width: 1143px){
+    
+
+    .food{
+        width: 42%; 
+        height: 32%;
+    }
+}
+
+@media only screen and (max-width: 768px){
     .name{
         font-size: .9rem;
     }
     
     .fdesc{
-        font-size: .6rem;
+        font-size: .7rem;
     }
 
     .cart, .fprice{
         font-size: .8rem;
-    }
-
-    .food{
-        width: 42%; 
-        height: 32%;
     }
 }
 
@@ -94,5 +104,57 @@
 
     .cart, .fprice{
         font-size: .7rem;
+    }
+}
+@media only screen and (max-width: 468px){
+    .card{
+        display: grid;
+        grid-template-rows: auto auto;
+        grid-template-columns: 30% 65%;
+    }
+    .food{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 3;
+    }
+    .txt{
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        align-items: flex-start;
+    }
+    .dets{
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+    .food img{
+        width: 100%;
+        height: auto;
+    }
+    .food{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .name, .fdesc{
+        text-align: left;
+        margin: 0;
+    }
+}
+@media only screen and (max-width: 376px){
+    .name{
+        font-size: .7rem;
+    }
+
+    .cart, .fprice{
+        font-size: .6rem;
+    }
+    .fdesc{
+        font-size: .6rem;
     }
 }

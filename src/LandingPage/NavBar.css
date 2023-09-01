@@ -8,8 +8,8 @@
     width: 100%;
     justify-content: space-between;
     align-items: center;
-    margin-top: 4%;
-    padding: 0 8%;
+    margin-top: 2%;
+    padding: 0 5%;
 
 }
 
@@ -22,12 +22,17 @@
 
 .lftside{
     width: 11%;
-    justify-content: space-between;
+    gap: 1rem;
     align-items: center;
 }
 
 .logo{
-    width: 45%;
+    width: 30%;
+}
+
+.logo img{
+    width: 100%;
+    height: auto;
 }
 
 .brand{
@@ -46,6 +51,12 @@ ul li a{
     color: white;
     text-decoration: none;
     font-size: 1rem;
+    font-weight: 600;
+    transition: .2s;
+}
+
+ul li a:hover{
+    color: #f3cfa5;
 }
 
 ul li{
@@ -56,19 +67,27 @@ ul li{
 
 .fsign{
     width: 100%;
-    height: 70%;
+    height: 100%;
     border-radius: 5px;
     font-size: .9rem;
-    background-color: #E2B887;
     color: #00302E;
     font-weight: bold;
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: .2s;
+    background: #FBDDBB;
 }
 
+.fsign:hover{
+    background: #e0b482;
+    color: #00302E;
+}
+
+
 .signup{
-    width: 40%;
+    width: 45%;
+    height: 3rem;
 }
 
 .home{
@@ -86,9 +105,6 @@ ul li{
 @media only screen and (max-width: 1197px){
     .rgtside{
         width: 30%;
-    }
-    .fsign{
-        height: 80%;
     }
     .lftside{
         width: 13%;
@@ -117,16 +133,18 @@ ul li{
 }
 @media only screen and (max-width: 768px){
     .lftside{
-        width: 16%;
+        width: 18%;
+        align-items: center;
+        gap: .5rem;
     }
     .rgtside{
-        width: 38%;
+        width: 40%;
     }
     ul li a{
         font-size: .9em;
     }
-    .logo{
-        width: 38%;
+    .logo img{
+        width: 1.5rem;
     }
     .brand{
         font-size: 1.4rem;
@@ -137,22 +155,12 @@ ul li{
     }
     .fsign{
         font-size: .8rem;
+        height: 2.5rem;
     }
     .navbar{
         height: 9%;
     }
 
-}
-@media only screen and (max-width: 668px){
-    .lftside{
-        width: 18%;
-    }
-    .rgtside{
-        width: 40%;
-    }
-    .fsign{
-        height: 100%;
-    }
 }
 
 @media only screen and (max-width: 568px){
@@ -160,7 +168,10 @@ ul li{
         width: 30%;
     }
     .rgtside{
-        width: 40%;
+        width: 50%;
+    }
+    .logo img{
+        width: 1.2rem;
     }
     ul li a{
         font-size: .85em;

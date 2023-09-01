@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Order = (props) => {
+const Order = () => {
   return (
     <div className='crtcrd'>
         <h2 className='crthd'>Your Cart</h2>

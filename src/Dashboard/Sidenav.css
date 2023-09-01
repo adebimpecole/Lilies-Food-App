@@ -1,5 +1,5 @@
 .sidenav{
-    width: 20%;
+    width: 15%;
     height: 100%;
     background-color: #FBFBFB;
     padding: 4% 2% 3% 2%;
@@ -12,7 +12,7 @@
 }
 
 .brndname{
-    font-size: 2rem;
+    font-size: 1.6rem;
     font-weight: bold;
 }
 
@@ -53,6 +53,7 @@
     width: 100%;
     transition: width .1s;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .opts{
@@ -71,13 +72,18 @@
 }
 
 .go{
-    height: 80%;
+    height: 60%;
+}
+
+.go img{
+    height: 100%;
+    width: auto;
 }
 
 .ord, .rord{
     font-weight: bold;
     color: black;
-    padding: 0 3%;
+    padding: 0 .5rem;
     border-radius: 25%;
 }
 
@@ -105,26 +111,15 @@
 }
 
 @media only screen and (max-width: 943px){
-    .brndname{
-        font-size: 1.7rem;
-        font-weight: bold;
-    }
-    
-    .brand{
-        height: 10%;
-    } 
-}
-
-@media only screen and (max-width: 843px){
     .sidenav{
-        width: 22%;
+        width: 20%;
     }
 }
 
 @media only screen and (max-width: 768px){
     .sidenav{
-        width: 10%;
-        padding: 5% 0 0 0;
+        width: 9%;
+        padding: 4% 0 0 0;
     }
     .ntxt, .brndname{
         display: none;
@@ -140,27 +135,23 @@
     .opt:hover, .active:hover{
         font-size: 1.8rem;
     }
-    .brand{
-        height: 15%;
-    } 
     .rord, .ord{
         display: none;
     }
 }
 @media only screen and (max-width: 568px){
-    .brand{
-        height: 13%;
-    } 
-}
-@media only screen and (max-width: 568px){
-    .brand{
-        height: 10%;
-    } 
-}
-
-@media only screen and (max-width: 768px){
     .sidenav{
-        width: 15%;
-        padding: 6% 0 0 0;
+        width: 12%;
+        padding: 5% 0 0 0;
+    }
+    .brand{
+        height: 15%;
+        align-items: flex-start;
     }
 }
+@media only screen and (max-width: 468px){
+    .sidenav{
+        width: 15%;
+    }
+}
+

@@ -22,10 +22,13 @@ const Body = (props) => {
         <div className='body'>
             <div className='welcome'>
                 <div className='wtxt'>
-                    <div className=''>Good morning, User</div>
+                    <div className='big_text'>Good morning, User</div>
                     <div className='grttxt'>What delicious meal are you craving today?</div>
                 </div>
-                <img alt='profile' src={profilepic} className="prof"/>
+                <picture className="prof">
+                  <source srcSet={profilepic} type="image/webp"/>
+                  <img alt='profile' src={profilepic} />
+                </picture>
             </div>
             <div className='cards'>
                 <div className='cardsdiv'>

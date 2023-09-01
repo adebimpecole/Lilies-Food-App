@@ -1,6 +1,6 @@
 .chckot{
     width: 100%;
-    height: 15%;
+    height: 5rem;
 }
 
 .chkcrd{
@@ -11,7 +11,7 @@
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    padding: 25% 7% 10% 7%;
+    padding: 10% 7% 10% 7%;
 }
 
 .chkli{
@@ -24,5 +24,52 @@
 }
 
 .crdnum, .expdt, .cvv, .crdpn{
-    height: 15%;
+    height: 4rem;
+    padding: 0 1rem;
+    border: 1px solid #ffdab0;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: .8rem;
+}
+
+.chkhd{
+    font-size: 1.1rem;
+}
+
+@media only screen and (max-width: 768px){
+    .crdnum, .expdt, .cvv, .crdpn{
+        height: 3.5rem;
+        font-size: .75rem;
+    }
+    .chckot{
+        height: 4rem;
+    }
+}
+@media only screen and (max-width: 568px){
+    .crdnum, .expdt, .cvv, .crdpn{
+        height: 3.5rem;
+        font-size: .7rem;
+        padding: 1rem;
+    }
+    .chkli{
+        height: fit-content;
+        gap: 1.5rem;
+    }
+    .chkbl{
+        justify-content: flex-start;
+        gap: 2rem;
+        height: fit-content;
+    }
+    .chkcrd{
+        justify-content: flex-start;
+    }
+    .chckot{
+        height: 3.5rem;
+        font-size: .8rem;
+    }
+}
+@media only screen and (max-width: 376px){
+    .chckot{
+        font-size: .7rem;
+    }
 }

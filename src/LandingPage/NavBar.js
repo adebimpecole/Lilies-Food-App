@@ -19,7 +19,10 @@ const NavBar = (props) => {
   return (
     <div className='navbar'>
       <div className='lftside'>
-          <img src={logo} className="logo" alt='logo'/>
+          <picture className="logo">
+            <source srcSet={logo} type="image/webp"/>
+            <img src={logo}  alt='logo'/>
+          </picture>
           <div className='brand'>Lilies</div>
       </div>
       <ul className='rgtside' style={setStyle}>

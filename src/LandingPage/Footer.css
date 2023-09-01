@@ -84,6 +84,9 @@ hr{
     .socials{
         width: 18%;
     }
+    .foot1{
+        padding: 3% 5%;
+    }
 }
 @media only screen and (max-width: 1073px){
     .socials{
@@ -150,6 +153,12 @@ hr{
         line-height: 25px;
         padding-top: 15%;
     }
+    .sectbdy span, .fttxt{
+        font-size: .6rem;
+    }
+    .secthd{
+        font-size: .8rem;
+    }
 }
 
 @media only screen and (max-width: 468px){
@@ -178,11 +187,8 @@ hr{
     .social{
         height: 65%;
     }
-    .fttxt{
-        font-size: .6rem;
-    }
-    .sectbdy span{
-        font-size: .6rem;
+    .sectbdy span, .fttxt{
+        font-size: .5rem;
     }
     .secthd{
         font-size: .75rem;
@@ -194,10 +200,10 @@ hr{
     
 @media only screen and (max-width: 276px){
     .sectbdy span{
-        font-size: .55rem;
+        font-size: .45rem;
     }
     .fttxt{
-        font-size: .55rem;
+        font-size: .45rem;
     }
     .secthd{
         font-size: .7rem;

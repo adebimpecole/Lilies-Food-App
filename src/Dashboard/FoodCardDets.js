@@ -38,7 +38,10 @@ const FoodCardDets = (props) => {
     }
   return (
     <>
-        <img src={pictures[props.obj.key]} alt="ltlpic" className="cpic"/>
+        <picture className="cpic">
+            <source srcSet={pictures[props.obj.key]} type="image/webp"/>
+            <img src={pictures[props.obj.key]} alt="ltlpic" />
+        </picture>
         <div className='fcname'>
             {dets[props.obj.key].title}
         </div>

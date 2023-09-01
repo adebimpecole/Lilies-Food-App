@@ -1,5 +1,6 @@
 import React from 'react'
 import "./SForm.css"
+import "../LoginPage/LForm.css"
 import { Link } from "react-router-dom";
 
 

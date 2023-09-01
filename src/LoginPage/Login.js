@@ -1,6 +1,5 @@
 import React from 'react'
 import LForm from './LForm'
-import loginpic from "../images/loginpic.png"
 import "./Login.css"
 
 

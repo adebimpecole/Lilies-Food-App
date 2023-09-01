@@ -1,20 +1,22 @@
 .fsection{
     display: flex;
     flex-direction: row;
-    width: 95%;
-    justify-content: space-between;
+    width: 100%;
+    justify-content: center;
     align-items: center;
+    gap: 6rem;
     padding: 5% 8%;
 }
 
-h1{
-    font-size: 3.5rem;
-    color: white;
-    font-weight: normal;
+.fschd{
+    font-size: 2.8rem;
     margin: 0;
+    margin: 0;
+    color: white;
+    font-weight: bold;
 }
 
-h1 span{
+.fschd span{
     color: #FBDDBB;
 }
 
@@ -25,16 +27,20 @@ h1 span{
 }
 
 .lftsec{
-    width: 50%;
+    width: 45%;
     text-align: left;
 }
 
 .rgtsec{
-    width: 35%;
+    width: 32%;
 }
 
 .food1{
     width: 100%;
+}
+.food1 img{
+    width: 100%;
+    height: auto;
 }
 
 .image{
@@ -42,39 +48,38 @@ h1 span{
     flex-direction: row;
     justify-content: space-between;
     width: 55%;
+    gap: 1rem;
 }
 
-.image img{
-    width: 45%;
-}
-
-.store{
+.store img{
     border: .5px solid #ffffff46;;
     border-radius: 5px;
+    width: 100%;
+    height: auto;
 }
 
-@media only screen and (max-width: 1073px){
+
+@media only screen and (max-width: 1197px){
     .fsection{
-        width: 100%;
-    }
-}
-@media only screen and (max-width: 843px){
+        padding: 5%;
+    }   
     .fschd{
-        font-size: 2rem;
-    }
+        font-size: 2.3rem;
+    } 
 }
+
 @media only screen and (max-width: 768px){
     .lfttxt{
         font-size: .8rem;
     }
     .fschd{
-        font-size: 1.8rem;
+        font-size: 1.9rem;
     }
     .image{
         width: 65%;
     }
-    .rgtsec{
-        width: 33%;
+    .lftsec{
+        width: 45%;
     }
 }
 @media only screen and (max-width: 668px){
@@ -94,10 +99,34 @@ h1 span{
 
 @media only screen and (max-width: 568px){
     .fschd{
-        font-size: 1.4rem;
+        font-size: 1.6rem;
     }
     .image{
         width: 75%;
+    }
+    .fsection{
+        flex-direction: column;
+        width: 100%;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 2rem;
+        padding: 5%;
+    }
+    .lftsec{
+        width: 90%;
+        align-items: center;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .lfttxt{
+        padding: .5rem 0 1.5rem 0;
+    }
+    .rgtsec{
+        width: 60%;
+    }
+    .image{
+        width: 60%;
     }
 }
 
@@ -112,11 +141,12 @@ h1 span{
 
 @media only screen and (max-width: 376px){
     .fsection{
-        padding: 5% 8%;
+        padding: 8% 5%;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
+        gap: 1rem;
     }
     .lftsec{
         width: 100%;
@@ -133,10 +163,10 @@ h1 span{
     }
     .fschd{
         font-size: 1.2rem;
+        text-align: center;
     }
     .rgtsec{
-        padding-top: 5%;
-        width: 55%;
+        width: 80%;
     }
 }
     

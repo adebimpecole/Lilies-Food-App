@@ -13,7 +13,10 @@ const Card = (props) => {
     }
   return (
     <div className='card' onClick={FoodCard} style={props.clss}>
-        <img src={props.food} alt="food5" className='food'/>
+        <picture  className='food'>
+            <source srcSet={props.food} type="image/webp"/>
+            <img src={props.food} alt="food5"/>
+        </picture>
         <div className='txt'>
             <h2 className='name'>{props.value.title}</h2>
             <div className='fdesc'>{props.value.shortdesc}</div>

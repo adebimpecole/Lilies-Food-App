@@ -27,11 +27,15 @@ const MiniCart = (props) => {
     <div className='order' style={props.style} key={props.kys}>
       <div className='sborder'>
         <div className='odrdets'>
-            <img src={foods[props.dets.imgno]} className='itmpic' alt='itmpic'/>
-            <div className='nmtb'>
-              <div className='itemsname'>{props.dets.cnm}</div>
-              <span className='orem' onClick={Delete}>Remove</span>
-            </div>
+          <picture className='itmpic'>
+            <source srcSet={foods[props.dets.imgno]} type="image/webp"/>
+            <img src={foods[props.dets.imgno]} alt='itmpic'/>
+          </picture>
+          
+          <div className='nmtb'>
+            <div className='itemsname'>{props.dets.cnm}</div>
+            <span className='orem' onClick={Delete}>Remove</span>
+          </div>
             
         </div>
         <div className='qnt'>{props.dets.cqty}</div>

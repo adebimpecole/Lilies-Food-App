@@ -4,9 +4,15 @@
 .secs{
     width: 100%;
 }
+.secs img{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
 h3{
     font-size: 1.2rem;
     color: #FBDDBB;
+    margin: .5rem 0;
 }
 
 .ssub div{
@@ -20,49 +26,47 @@ h3{
     }
 }
 @media only screen and (max-width: 768px){
-    .ssub div{
-        display: none;
-    }
-    .secs{
-        width: 85%;
-    }
-}
-@media only screen and (max-width: 668px){
     h3{
         font-size: 1.1rem;
     }
-    .ssub{
-        width: 28%;
+    .ssub div{
+        font-size: .8rem;
     }
+    .ssub{
+        width: 30%;
+    }
+    .secs img{
+        width: 70%;
+    }
+}
+@media only screen and (max-width: 668px){
     .secs{
         width: 80%;
     }
 }
 @media only screen and (max-width: 568px){
     h3{
-        font-size: 1.05rem;
+        font-size: 1rem;
     }
-}
-@media only screen and (max-width: 468px){
-    h3{
-        font-size: .9rem;
+    .ssub div{
+        font-size: .7rem;
     }
 }
 @media only screen and (max-width: 376px){
     h3{
         font-size: .9rem;
-        font-weight: normal;
     }
     .ssub{
-        width: 50%;
+        width: 70%;
+        padding-bottom: 1rem;
+    }
+    .ssub div{
+        font-size: .6rem;
     }
 }
 @media only screen and (max-width: 276px){
     h3{
         font-size: .7rem;
         font-weight: normal;
-    }
-    .ssub{
-        width: 50%;
     }
 }

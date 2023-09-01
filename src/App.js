@@ -1,13 +1,14 @@
-import { useMemo, useState } from 'react';
+import React, {lazy, Suspense, useMemo, useState } from 'react';
 import './App.css';
 import Home from './LandingPage/Home';
-import Login from './LoginPage/Login';
-import Signup from './SignupPage/Signup';
-import Dashboard from './Dashboard/Dashboard';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Cart from './Dashboard/Cart';
 import { Context } from './Utilities/Context';
 
+
+ const Login = lazy(() => import('./LoginPage/Login'));
+ const Signup = lazy(() => import('./SignupPage/Signup'));
+ const Dashboard = lazy(() => import('./Dashboard/Dashboard'));
+ const Cart = lazy(() => import('./Dashboard/Cart'));
 
 
 function App() {
@@ -19,12 +20,26 @@ function App() {
         <Context.Provider value={providerValue}>
           <Routes>
             <Route exact path='*' element={<Home/>}/>
-            <Route exact path='/login' element={<Login/>}/>
-            <Route exact path='/signup' element={<Signup/>}/>
-            
-              <Route exact path='/dashb' element={<Dashboard/>}/>
-            
-            <Route exact path='/cart' element={<Cart/>}/>            
+            <Route exact path='/login' element={
+              <Suspense fallback={<div>Loading...</div>}>
+                <Login/>
+              </Suspense>
+            }/>      
+            <Route exact path='/signup' element={
+              <Suspense fallback={<div>Loading...</div>}>
+                <Signup/>
+              </Suspense>
+            }/> 
+            <Route exact path='/dashb' element={
+              <Suspense fallback={<div>Loading...</div>}>
+                <Dashboard/>
+              </Suspense>
+            }/> 
+            <Route exact path='/cart' element={
+              <Suspense fallback={<div>Loading...</div>}>
+                <Cart/>
+              </Suspense>
+            }/>         
           </Routes>
           </Context.Provider>
         </div>

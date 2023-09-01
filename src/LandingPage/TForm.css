@@ -4,19 +4,21 @@
     justify-content: space-between;
     align-items: center;
     padding: 8%;
-    height: 20%;
+    height: 30%;
 }
 
 .form{
     display: flex;
     flex-direction: row;
-    width: 45%;
+    align-items: center;
+    justify-content: space-between;
+    width: 55%;
     gap: 2%;
-    height: 50%;
+    height: 20%;
 }
 
 .formtxt{
-    width: 45%;
+    width: 40%;
     text-align: left;
     font-size: .9rem;
 }
@@ -24,7 +26,7 @@
 .formtxt h2{
     color: #FBDDBB;
     font-size: 2rem;
-
+    margin: .5rem 0;
 }
 
 .formtxt div{
@@ -32,43 +34,70 @@
     width: 90%;
 }
 
-input{
-    width: 60%;
+.form input{
+    width: 70%;
     height: 100%;
-    padding: 3%;
+    padding: 1rem;
     border-radius: 5px;
-    border: none;
+    height: 3.5rem;
+    box-sizing: border-box;
 }
 
 .notify{
-    width: 35%;
-    height: 100%;
+    width: 30%;
+    height: 3.5rem;
+    cursor: pointer;
     border-radius: 5px;
     background-color: #FBDDBB;
     color: #00302E;
     border: none;
     font-weight: bold;
+    transition: .2s;
+}
+.notify:hover{
+    background: #f9cd9a;
 }
 
 @media only screen and (max-width: 1197px){
-    .form{
-        width: 50%;
-        gap: 2%;
-        height: 40%;
+    .tform{
+        padding: 8% 5%;
     }
 }
+
 @media only screen and (max-width: 943px){
     .form{
-        width: 50%;
-        gap: 2%;
-        height: 30%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
         justify-content: space-between;
+        width: 100%;
+        gap: 2%;
+        height: 5%;
+    }
+    .form input{
+        height: 3rem;
+    }
+    
+    .notify{
+        width: 30%;
+        height: 3rem;
+    }
+    .tform{
+        flex-direction: column;
+        align-items: flex-start;
+        height: 30%;
+    }
+    .formtxt{
+        width: 80%;
+        text-align: left;
+        font-size: .9rem;
     }
 }
 @media only screen and (max-width: 843px){
     .formtxt h2{
         font-size: 1.9rem;
     }
+   
 }
 @media only screen and (max-width: 768px){
     .formtxt h2{
@@ -84,7 +113,7 @@ input{
         flex-direction: column;
         justify-content: space-between;
         align-items: flex-start;
-        padding: 6% 8%;
+        padding: 5%;
         height: 20%;
     }
     .formtxt{
@@ -128,6 +157,18 @@ input{
     .formtxt h2{
         font-size: 1.3rem;
     }
+    .form input{
+        height: 2.5rem;
+        font-size: .7rem;
+    }
+    .formtxt div{
+        font-size: .7rem;
+    }
+    .notify{
+        width: 30%;
+        height: 2.5rem;
+        font-size: .7rem;
+    }
 }
 
 @media only screen and (max-width: 468px){
@@ -146,7 +187,6 @@ input{
         padding-bottom: 4%;
     }
     .notify{
-        width: 30%;
         font-size: .7rem;
     }
     input{
@@ -156,18 +196,21 @@ input{
 }
 
 @media only screen and (max-width: 376px){
+    .notify{
+        font-size: .6rem;
+        height: 2rem;
+    }
+    .form input{
+        height: 2rem;
+        font-size: .6rem;
+    }
     .form{
-        width: 100%;
-        gap: 3%;
-        height: 50%;
-    } 
-    .formtxt{
         align-items: center;
     }
     .formtxt div{
-        text-align: center;
-        padding-bottom: 5%;
+        font-size: .6rem;
         width: 100%;
+        padding-top: 2%;
     }
 }
     

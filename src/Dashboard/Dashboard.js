@@ -24,7 +24,7 @@ const Dashboard = () => {
     }
 
     // closes the overlay tabs
-    const Close = (data) => {
+    const Close = () => {
       if (Object.values(setDisplay).includes("flex")) { 
         getDisplay({...setDisplay, display: "none"})
       }
@@ -40,12 +40,12 @@ const Dashboard = () => {
     }
     
     // displays the overlay cart tab
-    const ShowCart = (data)=> {
+    const ShowCart = ()=> {
       getDisplayCart({...setDisplayCart, display: "flex"})
     }
 
     // displays the overlay order tab
-    const ShowOrder = (data)=> {
+    const ShowOrder = ()=> {
       getDisplayOrder({...setDisplayOrder, display: "flex"})
     }
 
